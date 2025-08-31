@@ -77,23 +77,6 @@ const friends = [
     avatar: "",
     role: "Developer",
     link: "https://github.com/eliasmoflag",
-    projects: [
-      {
-        name: "Aether",
-        description: "A open-source counter-strike 2 cheat",
-        link: "https://github.com/eliasmoflag/aether",
-      },
-      {
-        name: "Source 2 Dumper",
-        description: "Well... i dont have anything to add here, its a source 2 dumper.",
-        link: "https://github.com/eliasmoflag/source2-dumper",
-      },
-      {
-        name: "net-syringe",
-        description: "Proof-of-Concept server-assisted DLL manual mapping written in Rust",
-        link: "https://github.com/eliasmoflag/net-syringe",
-      },
-    ],
   },
 ]
 
