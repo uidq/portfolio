@@ -190,7 +190,7 @@ const MusicPlayer = ({
 
       {!showOverlay && isPlaying && (
         <div
-          className={`fixed ${isScrolled ? "top-4" : "top-20"} left-1/2 transform -translate-x-1/2 z-30 w-full px-4 pointer-events-none transition-all duration-300 ease-in-out`}
+          className={`fixed ${isScrolled ? "top-4" : "top-20"} left-1/2 transform -translate-x-1/2 z-30 w-full px-4 pointer-events-none transition-all duration-300 ease-in-out hidden md:block`}
         >
           <div className="bg-[#232323]/50 border border-zinc-700/50 rounded-full px-4 py-2 text-[#e0e0e0]/60 text-sm font-medium shadow-lg flex items-center gap-2 justify-center max-w-sm mx-auto">
             <Volume2 size={16} className="text-[#ffdeeb] flex-shrink-0" />
