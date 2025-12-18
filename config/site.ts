@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "qtie.dev",
-  description: "Holy fuck",
+  description: "Se on ihan ok et ollaan vararikos, mutta kaikista pahin rikos, on raharikos.",
   navItems: [],
   links: {
     github: "https://github.com/uidq",

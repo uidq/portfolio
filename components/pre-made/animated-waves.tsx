@@ -56,7 +56,7 @@ export function AnimatedWaves() {
       let trebleLevel = 0
       
       if (analyserRef.current && dataArrayRef.current && isAudioActive) {
-        analyserRef.current.getByteFrequencyData(dataArrayRef.current)
+        //analyserRef.current.getByteFrequencyData(dataArrayRef.current)
         
         const bass = dataArrayRef.current.slice(0, 8).reduce((a, b) => a + b, 0) / 8
         const mid = dataArrayRef.current.slice(8, 24).reduce((a, b) => a + b, 0) / 16
@@ -107,9 +107,9 @@ export function AnimatedWaves() {
         ctx.globalAlpha = Math.max(0.05, Math.min(0.2, opacity))
         
         const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0)
-        gradient.addColorStop(0, '#ffdeeb')
-        gradient.addColorStop(0.5, '#ffdeeb')
-        gradient.addColorStop(1, '#ffdeeb')
+        gradient.addColorStop(0, '#fcc2d7')
+        gradient.addColorStop(0.5, '#fcc2d7')
+        gradient.addColorStop(1, '#fcc2d7')
         
         ctx.fillStyle = gradient
         
@@ -133,7 +133,7 @@ export function AnimatedWaves() {
         ctx.closePath()
         ctx.fill()
         
-        ctx.strokeStyle = '#ffdeeb'
+        ctx.strokeStyle = '#fcc2d7'
         ctx.lineWidth = 1
         ctx.stroke()
         ctx.restore()

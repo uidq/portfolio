@@ -46,18 +46,13 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
       </head>
-      <body className="bg-[#121212] text-[#e0e0e0] font-montserrat">
+      <body className="text-[#e0e0e0] font-montserrat">
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>   
           <AOSProvider>
-            <div className="relative flex flex-col">
-              <AnimatedWaves />
-              <EnhancedFallingStars />
-              <Navbar />
-
-              <main className="w-full pt-16 px-4 sm:px-6 lg:px-8 xl:px-12 flex-grow">
+            <div className="relative flex flex-col h-full">
+              <main className="w-full h-full">
                 {children}
               </main>
-              <Footer />
             </div>
           </AOSProvider>
         </Providers>

@@ -9,6 +9,7 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
+		"@headlessui/react": "^2.2.9",
 		"@next/bundle-analyzer": "^15.4.5",
 		"@nextui-org/button": "2.0.38",
 		"@nextui-org/code": "2.0.33",
@@ -49,6 +50,8 @@
 		"next": "^14.2.31",
 		"next-intl": "^4.3.4",
 		"next-themes": "^0.2.1",
+		"ogl": "^1.0.11",
+		"postprocessing": "^6.38.0",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
 		"react-intersection-observer": "^9.13.1",
